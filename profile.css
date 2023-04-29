@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    
+}
+.header-body{
+    display: block;
+    border-bottom:1px solid white ;
+    padding: 10px;
+}
+.header-body a{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+   
+}
+
+#right{
+    float: right;
+    margin-left: 20px;
+}
+
+h1{
+    color:white;
+}
+
+.storage h1{
+ color:white;
+ font-size:x-large;
+ margin-top: 20px;
+}
+
+#logout-btn{
+    color:black;
+    background: white;
+    padding: 10px 20px;
+    margin-top:50px;
+}
+.profile{
+  margin-top: 10px;
+}
+

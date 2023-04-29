@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-body">
+            <a id="left" href="#">Header</a>
+            <a id="right" href="#">SignUp</a>
+            <a id="right" href="#">Profile</a>
+        </div>
+        <div class="signup">
+            <h1>Signup</h1>
+            <div class="details">
+                <input type="name" id="fname" placeholder="Full Name">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <input type="password" id="confirm-password" placeholder="Confirm-Password">
+                <div id="message">
+                    <p id="error-message" style="color:red;display:none;">Error:All Fields are mandatory</p>
+                    <p id="success-message" style="color:green;display:none;">Signup successful!</p>
+                </div>
+                <div class="button">
+                    <button id="signup-btn">Signup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
